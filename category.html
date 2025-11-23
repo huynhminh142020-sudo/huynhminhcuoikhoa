@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Khám phá thế giới game Noel với các thể loại hấp dẫn tại Xmas Game Haven.">
+    <meta name="keywords" content="Game Noel, Xmas Game, Giáng Sinh, Game Tuyết, Game Phiêu Lưu">
+    <meta name="author" content="Xmas Game Haven">
     <title>Game Noel - Xmas Game Haven</title>
     <link rel="stylesheet" href="category.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="logo"><i class="fas fa-tree"></i> Xmas Game Haven</div>
+        <div class="logo" aria-label="Trang chủ Xmas Game Haven">
+            <i class="fas fa-tree"></i> Xmas Game Haven
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Trang Chủ</a></li>
@@ -19,7 +24,9 @@
                 <li><a href="contact.html">Liên Hệ</a></li>
             </ul>
         </nav>
-        <div class="cart"><i class="fas fa-shopping-cart"></i> Giỏ Hàng</div>
+        <div class="cart" aria-label="Xem giỏ hàng">
+            <i class="fas fa-shopping-cart"></i> Giỏ Hàng
+        </div>
     </header>
 
     <main class="category-page">
@@ -35,45 +42,32 @@
                     <label><input type="checkbox"> Giải đố</label>
                     <label><input type="checkbox"> Indie Mùa Đông</label>
                 </div>
-                <div class="filter-group">
-                    <h4>Nền tảng</h4>
-                    <label><input type="checkbox"> PC</label>
-                    <label><input type="checkbox"> Console</label>
-                    <label><input type="checkbox"> Mobile</label>
-                </div>
-                <button class="apply-filter-btn">Áp dụng</button>
             </aside>
-            
-            <section class="product-list-container">
-                <div class="sorting-options">
-                    <label for="sort">Sắp xếp theo:</label>
-                    <select id="sort">
-                        <option value="newest">Mới nhất</option>
-                        <option value="bestseller">Bán chạy nhất</option>
-                        <option value="price-asc">Giá: Thấp đến Cao</option>
-                    </select>
-                </div>
 
-                <div class="product-grid">
-                    <div class="product-card">... Game 1 ...</div>
-                    <div class="product-card">... Game 2 ...</div>
-                    <div class="product-card">... Game 3 ...</div>
-                    <div class="product-card">... Game 4 ...</div>
-                    <div class="product-card">... Game 5 ...</div>
-                    <div class="product-card">... Game 6 ...</div>
-                    </div>
-
-                <div class="pagination">
-                    <a href="#">&laquo; Trước</a>
-                    <a href="#" class="current-page">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">Sau &raquo;</a>
-                </div>
+            <section class="game-list">
+                <article class="game-item">
+                    <img src="game1.jpg" alt="Game Phiêu Lưu Tuyết" class="game-thumbnail">
+                    <h3>Phiêu Lưu Tuyết</h3>
+                    <p>Tham gia hành trình phiêu lưu qua những vùng đất phủ đầy tuyết trắng.</p>
+                    <button class="btn">Xem Chi Tiết</button>
+                </article>
+                <article class="game-item">
+                    <img src="game2.jpg" alt="Game Giải Đố Noel" class="game-thumbnail">
+                    <h3>Giải Đố Noel</h3>
+                    <p>Thử thách trí tuệ với các câu đố thú vị trong không khí Giáng Sinh.</p>
+                    <button class="btn">Xem Chi Tiết</button>
+                </article>
             </section>
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <p>&copy; 2023 Xmas Game Haven. Mọi quyền được bảo lưu.</p>
+        <ul class="social-links">
+            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
