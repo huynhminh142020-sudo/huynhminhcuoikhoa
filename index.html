@@ -3,99 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khuyến Mãi Lẻ | Gói Quà Noel Game Thủ</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Xmas Game Haven - Trang Chủ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header class="new-header">
-        <div class="top-bar">
-            <div class="logo-section">
-                <span class="shop-name">GÓI QUÀ NOEL</span>
-            </div>
-            <div class="search-bar-container">
-                <input type="text" placeholder="Nhập nội dung cần tìm..." class="search-input">
-                <button class="search-button">🔍</button>
-            </div>
-            <div class="user-actions">
-                <a href="#" class="action-btn white-btn">Đăng nhập</a>
-                <a href="#" class="action-btn white-btn">Giỏ hàng</a>
-            </div>
+    <header>
+        <div class="logo">
+            <i class="fas fa-tree"></i> Xmas Game Haven
         </div>
-
-        <div class="main-menu-bar">
-            <div class="category-menu-btn">
-                <button class="green-btn">☰ Danh mục</button>
-            </div>
-            <div class="main-menu-links">
-                <a href="index.html" class="menu-link">🏠 Trang Chủ</a>
-                <a href="bundles.html" class="menu-link">🎁 Gói Quà Noel</a>
-                <a href="deals.html" class="menu-link active">💰 Khuyến Mãi Lẻ</a>
-                <a href="about.html" class="menu-link">ℹ️ Về Chúng Tôi</a>
-                <a href="contact.html" class="menu-link">📞 Liên Hệ</a>
-            </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Trang Chủ</a></li>
+                <li><a href="category.html">Game Noel</a></li>
+                <li><a href="sale.html">Khuyến Mãi</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i> Giỏ Hàng
         </div>
     </header>
-    
+
     <main>
-        <div class="deals-header">
-            <h2>✨ SẢN PHẨM MỚI RA MẮT MÙA NOEL ✨</h2>
-        </div>
-        
-        <div class="deal-list">
-            
-            <div class="deal-item">
-                <div class="game-image">ANNO 117 (Ảnh Placeholder)</div>
-                <div class="deal-content">
-                    <h4>Anno 117: Pax Romana Gold</h4>
-                    <p class="original-price">3.490.000 VNĐ</p>
-                    <div class="price-row">
-                        <span class="discount-price">129.000 VNĐ</span>
-                        <a href="#" class="btn add-to-cart-btn">🛒</a>
-                    </div>
-                </div>
-            </div>
+        <section class="hero-banner">
+            <h1>Mở Quà Giáng Sinh Ngay!</h1>
+            <p>Khám phá bộ sưu tập game mùa lễ hội mới nhất.</p>
+            <a href="category.html" class="cta-button">Khám Phá Game Tuyết Rơi</a>
+        </section>
 
-            <div class="deal-item">
-                <div class="game-image">EUROPA (Ảnh Placeholder)</div>
-                <div class="deal-content">
-                    <h4>Europa Universalis V Premium</h4>
-                    <p class="original-price">1.410.000 VNĐ</p>
-                    <div class="price-row">
-                        <span class="discount-price">69.000 VNĐ</span>
-                        <a href="#" class="btn add-to-cart-btn">🛒</a>
-                    </div>
+        <section class="featured-products">
+            <h2>🔥 Game Hot Dưới Cây Thông 🔥</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="placeholder-game1.jpg" alt="Game The Lost Reindeer Quest">
+                    <h3>The Lost Reindeer Quest</h3>
+                    <p class="price">499.000 VNĐ</p>
+                    <a href="product-detail.html" class="detail-link">Xem Chi Tiết</a>
                 </div>
-            </div>
-            
-            <div class="deal-item">
-                <div class="game-image">OUTER WORLDS (Ảnh Placeholder)</div>
-                <div class="deal-content">
-                    <h4>The Outer Worlds 2 Premium</h4>
-                    <p class="original-price">2.099.000 VNĐ</p>
-                    <div class="price-row">
-                        <span class="discount-price">69.000 VNĐ</span>
-                        <a href="#" class="btn add-to-cart-btn">🛒</a>
-                    </div>
+                <div class="product-card">
+                    <img src="placeholder-game2.jpg" alt="Game Santa's Workshop Sim">
+                    <h3>Santa's Workshop Sim</h3>
+                    <p class="price sale">750.000 VNĐ <span class="discount">-20%</span></p>
+                    <a href="product-detail.html" class="detail-link">Xem Chi Tiết</a>
                 </div>
-            </div>
+                </div>
+        </section>
 
-            <div class="deal-item">
-                <div class="game-image">DISPATCH (Ảnh Placeholder)</div>
-                <div class="deal-content">
-                    <h4>Dispatch Deluxe Edition Việt Hóa</h4>
-                    <p class="original-price">466.000 VNĐ</p>
-                    <div class="price-row">
-                        <span class="discount-price">39.000 VNĐ</span>
-                        <a href="#" class="btn add-to-cart-btn">🛒</a>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+        <section class="countdown-sale">
+            <h2>🎅 Sale Chớp Nhoáng: Đếm Ngược Đến Noel 🎅</h2>
+            <p>Ưu đãi kết thúc sau:</p>
+            <div id="countdown-timer">00:00:00</div>
+        </section>
     </main>
 
-    <footer class="footer">
-        <p>© 2025 Gói Quà Noel Game Thủ. Key chính hãng, giao hàng ngay lập tức.</p>
+    <footer>
+        <p>&copy; 2025 Xmas Game Haven. Tất cả bản quyền được bảo lưu.</p>
+        <div class="social-links">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+        </div>
     </footer>
 </body>
 </html>
