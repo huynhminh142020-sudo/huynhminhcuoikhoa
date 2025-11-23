@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Noel - Xmas Game Haven</title>
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fas fa-tree"></i> Xmas Game Haven</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="category.html" class="active">Game Noel</a></li>
+                <li><a href="sale.html">Khuyến Mãi</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="cart"><i class="fas fa-shopping-cart"></i> Giỏ Hàng</div>
+    </header>
+
+    <main class="category-page">
+        <h2>Thế Giới Game Tuyết Rơi 🌨️</h2>
+        
+        <div class="category-layout">
+            <aside class="sidebar">
+                <h3><i class="fas fa-filter"></i> Lọc Theo</h3>
+                <div class="filter-group">
+                    <h4>Thể Loại</h4>
+                    <label><input type="checkbox"> Phiêu lưu</label>
+                    <label><input type="checkbox"> Mô phỏng</label>
+                    <label><input type="checkbox"> Giải đố</label>
+                    <label><input type="checkbox"> Indie Mùa Đông</label>
+                </div>
+                <div class="filter-group">
+                    <h4>Nền tảng</h4>
+                    <label><input type="checkbox"> PC</label>
+                    <label><input type="checkbox"> Console</label>
+                    <label><input type="checkbox"> Mobile</label>
+                </div>
+                <button class="apply-filter-btn">Áp dụng</button>
+            </aside>
+            
+            <section class="product-list-container">
+                <div class="sorting-options">
+                    <label for="sort">Sắp xếp theo:</label>
+                    <select id="sort">
+                        <option value="newest">Mới nhất</option>
+                        <option value="bestseller">Bán chạy nhất</option>
+                        <option value="price-asc">Giá: Thấp đến Cao</option>
+                    </select>
+                </div>
+
+                <div class="product-grid">
+                    <div class="product-card">... Game 1 ...</div>
+                    <div class="product-card">... Game 2 ...</div>
+                    <div class="product-card">... Game 3 ...</div>
+                    <div class="product-card">... Game 4 ...</div>
+                    <div class="product-card">... Game 5 ...</div>
+                    <div class="product-card">... Game 6 ...</div>
+                    </div>
+
+                <div class="pagination">
+                    <a href="#">&laquo; Trước</a>
+                    <a href="#" class="current-page">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">Sau &raquo;</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>...</footer>
+</body>
+</html>

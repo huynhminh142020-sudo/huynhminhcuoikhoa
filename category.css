@@ -1,0 +1,36 @@
+/* Trong file style.css */
+.category-page h2, .sale-page h2 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 30px;
+}
+.category-layout {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sidebar {
+    flex: 0 0 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.product-list-container {
+    flex: 1;
+}
+.filter-group {
+    margin-bottom: 20px;
+}
+.filter-group h4 {
+    color: var(--color-secondary);
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* ... Thêm CSS cho các trang khác ... */
