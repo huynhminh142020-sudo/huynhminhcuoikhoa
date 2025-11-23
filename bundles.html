@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gói Quà Noel | Đặt Hàng</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="new-header">
+        <div class="top-bar">
+            <div class="logo-section">
+                <span class="shop-name">GÓI QUÀ NOEL</span>
+            </div>
+            <div class="search-bar-container">
+                <input type="text" placeholder="Nhập nội dung cần tìm..." class="search-input">
+                <button class="search-button">🔍</button>
+            </div>
+            <div class="user-actions">
+                <a href="#" class="action-btn white-btn">Đăng nhập</a>
+                <a href="#" class="action-btn white-btn">Giỏ hàng</a>
+            </div>
+        </div>
+
+        <div class="main-menu-bar">
+            <div class="category-menu-btn">
+                <button class="green-btn">☰ Danh mục</button>
+            </div>
+            <div class="main-menu-links">
+                <a href="index.html" class="menu-link">🏠 Trang Chủ</a>
+                <a href="bundles.html" class="menu-link active">🎁 Gói Quà Noel</a>
+                <a href="deals.html" class="menu-link">💰 Khuyến Mãi Lẻ</a>
+                <a href="about.html" class="menu-link">ℹ️ Về Chúng Tôi</a>
+                <a href="contact.html" class="menu-link">📞 Liên Hệ</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="order-form-section">
+            <div class="order-container">
+                <h2>🛒 ĐẶT HÀNG NGAY - NHẬN QUÀ LIỀN TAY 🎁</h2>
+                <p class="note">Điền thông tin và chọn gói quà bạn muốn nhận trong dịp lễ này. Giá sẽ được hiển thị trên trang thanh toán.</p>
+
+                <form>
+                    
+                    <h3>1. Chọn Gói Quà:</h3>
+                    <div class="package-selection">
+                        <label class="package-option">
+                            <input type="radio" name="package" value="suoiam" checked>
+                            <span>Gói Lò Sưởi Ấm Áp (499.000 VNĐ)</span>
+                        </label>
+                        <label class="package-option">
+                            <input type="radio" name="package" value="tuyetbomtan">
+                            <span>Gói Đón Tuyết Bom Tấn (999.000 VNĐ)</span>
+                        </label>
+                    </div>
+
+                    <h3>2. Thông Tin Giao Hàng:</h3>
+                    <div class="customer-info-grid">
+                        <div class="form-group">
+                            <label for="name">Tên đầy đủ:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email (Quan trọng nhất để nhận Key):</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="note">Ghi chú (Ví dụ: Địa chỉ nhận lót chuột nếu chọn Gói II):</label>
+                            <textarea id="note" name="note"></textarea>
+                        </div>
+                    </div>
+                    
+                    <p class="confirmation-text">Giá sẽ được hiển thị chi tiết trên trang thanh toán.</p>
+                    <div class="form-actions">
+                        <button type="submit" class="continue-btn">XÁC NHẬN VÀ TIẾP TỤC THANH TOÁN</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Gói Quà Noel Game Thủ. Key chính hãng, giao hàng ngay lập tức.</p>
+    </footer>
+</body>
+</html>
