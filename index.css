@@ -26,6 +26,29 @@ header {
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+/* Căn chỉnh liên kết Đăng Nhập và Đăng Ký */
+.auth-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.auth-links a {
+    text-decoration: none;
+    color: #b71c1c; /* Màu chữ đỏ đậm */
+    background-color: #fff; /* Màu nền trắng */
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 2px solid #b71c1c; /* Viền đỏ đậm */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-links a:hover {
+    background-color: #b71c1c; /* Màu nền đỏ đậm khi hover */
+    color: #fff; /* Màu chữ trắng khi hover */
+}
 
 .logo {
     font-size: 1.8em;

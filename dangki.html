@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang đăng ký tài khoản tại Xmas Game Haven.">
+    <meta name="keywords" content="Đăng ký, Tài khoản, Xmas Game Haven">
+    <meta name="author" content="Xmas Game Haven">
+    <title>Đăng Ký Tài Khoản</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Xmas Game Haven</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                <li><a href="dangki.html" class="active">Đăng Ký</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="register-page">
+        <h2>Đăng Ký Tài Khoản</h2>
+        <form action="xulydangki.html" method="POST" class="register-form">
+            <div class="form-group">
+                <label for="fullname">Họ và Tên:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Nhập email" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Tên Đăng Nhập:</label>
+                <input type="text" id="username" name="username" placeholder="Nhập tên đăng nhập" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mật Khẩu:</label>
+                <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Xác Nhận Mật Khẩu:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Nhập lại mật khẩu" required>
+            </div>
+            <button type="submit" class="btn">Đăng Ký</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Xmas Game Haven. Mọi quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>

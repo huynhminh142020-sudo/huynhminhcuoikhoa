@@ -1,0 +1,101 @@
+/* Reset mặc định */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fbc02d;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Checkout Page */
+.checkout-page {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-page h2 {
+    text-align: center;
+    color: #b71c1c;
+    margin-bottom: 20px;
+}
+
+.checkout-form .form-group {
+    margin-bottom: 15px;
+}
+
+.checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.checkout-form button {
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checkout-form button:hover {
+    background-color: #b71c1c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
